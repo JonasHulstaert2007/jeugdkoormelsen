@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeugdkoor Melsen</title>
+		<link rel="stylesheet" href="styleJKM.css">
+		<link rel="icon" type="image/jpeg" href="logoJKM.jpeg">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo-container">
+    			 <img src="logoJKM.jpeg" alt="Logo Jeugdkoor Melsen" class="logo">
+    			 <div class="site-title">Jeugdkoor Melsen</div>
+				</a>
+
+       
+				<nav>
+    				 <ul>
+                        <li><a href="index.html">Home</a></li>
+        				<li><a href="overons.html">Over ons</a></li>
+        				<li><a href="lidworden.html">Lid worden</a></li>
+        				<li><a href="agenda.html">Agenda</a></li>
+        				<li><a href="optredens.html">Optredens</a></li>
+        				<li><a href="fotos.html">Foto's en video's</a></li>
+        				<li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+    
+    </header>
+
+    <section class="hero" id="home">
+
+        <div class="hero-image" id="heroImage" img src="JKMgroepsfoto.jpeg"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <h1>Jeugdkoor Melsen</h1>
+
+            <p>
+                Welkom bij Jeugdkoor Melsen.
+                
+            </p>
+            <p>
+							 	Een vereniging waar muziek, vriendschap en plezier samenkomen.
+						</p>
+        </div>
+
+    </section>
+
+    <section>
+        <h2 class="section-title">Waarom kiezen voor ons?</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Muzikale vorming</h3>
+                <p>
+                    Ontwikkel je zangtalent onder leiding van een gepassioneerde dirigente.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Fijne groep</h3>
+                <p>
+                    Ontmoet nieuwe vrienden die dezelfde passie delen.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Optredens</h3>
+                <p>
+                    Neem deel aan concerten en bijzondere evenementen.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+
+        <div class="cards">
+
+            <div class="card highlight">
+                <h3>Volgende activiteit</h3>
+                <p>
+										Open repetitie<br>
+                    Zaterdag 19 september - 16:00 tot 17:30
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Nieuws</h3>
+                <p>
+                    De JKM-activiteit viel goed in de smaak bij de leden. De voormiddag werd gevuld door het opluisteren van een trouw. In de namiddag konden we genieten van een ijsje en leuke spelletjes.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Word lid</h3>
+                <p>
+                    Geïnteresseerden zijn altijd welkom om eens te komen luisteren. Daarnaast organiseren we enkele open repetities waar jullie vanharte welkom zijn om eens mee te zingen.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+  
+
+    <footer>
+				
+				<div class="socials">
+
+    				<a href="https://www.facebook.com/jeugdkoormelsen/?locale=nl_NL" target="_blank">
+      			 		  <img src="facebook.png" alt="Facebook" class="social-icon">
+    				</a>
+
+    				<a href="https://www.instagram.com/jeugdkoormelsen/" target="_blank">
+        			 <img src="instagram.png" alt="Instagram" class="social-icon">
+    				</a>
+
+				</div>
+
+        <div>
+            Jeugdkoor Melsen
+        </div>
+
+        <div class="copyright">
+            © 2026 Jeugdkoor Melsen. Alle rechten voorbehouden.
+        </div>
+
+    </footer>
+
+    <script>
+        const heroImage = document.getElementById('heroImage');
+
+        window.addEventListener('scroll', () => {
+            const scrollPosition = window.scrollY;
+            const opacity = Math.max(0, 1 - scrollPosition / 500);
+            heroImage.style.opacity = opacity;
+        });
+    </script>
+
+</body>
+
+</html>
