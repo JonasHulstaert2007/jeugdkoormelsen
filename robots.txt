@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Verwijder het # hieronder zodra je een sitemap.xml hebt toegevoegd:
+# Sitemap: https://jeugdkoormelsen.be/sitemap.xml
